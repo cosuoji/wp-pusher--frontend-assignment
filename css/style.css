@@ -245,3 +245,236 @@ textarea {
   }
 }
 
+/*styles from here */
+
+body{
+  background-color:rgb(245,248,250);
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+main{
+  display: flex;
+  flex-direction: row wrap;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  box-shadow: 5px 3px 13px -4px rgba(0,0,0,0.61);
+
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  border-bottom: 0.1rem solid rgb(190, 190, 190);
+  margin-bottom: 50px;
+}
+
+
+.nav-account{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.checkout-h3{
+  size: 30px;
+  color: #1D2C3C;
+  padding: 1rem;
+  filter: drop-shadow(1px 1px 1px black);
+
+
+}
+
+.checkout{
+  border-bottom: 0.1rem solid rgb(218, 218, 218);
+  height: 80px;
+  padding: 1rem;
+}
+
+
+
+
+.basic-information span, .payment-information span{
+  color: rgb(84,139,197);
+  border: 2px solid rgb(84,139,197);
+  border-radius: 50%;
+  padding: 0.4rem;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.first-name-section, .last-name-section, .email-section, .credit-forms{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.basic-information p, .payment-information p{
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: -1rem;
+}
+
+
+.basic-information, .payment-information, .credit-forms{
+  padding: 1rem;
+}
+
+.basic-information, .payment-information{
+  border-bottom: 0.1rem solid rgb(218, 218, 218);
+
+}
+
+
+.name-wrapper{
+  display: flex;
+  
+}
+
+.first-name-section, .last-name-section, .email-section, .credit-forms{
+  padding: 1rem;
+}
+
+.email-section input, .credit-info{
+  width: 90%;
+}
+
+input{
+  background-color: rgb(237, 239, 242);
+  border: none;
+  height: 20px;
+  padding: 0.2rem;
+}
+
+
+/*Buy WP Pusher Styling */
+.checkout-footer-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.checkout-footer-section button{
+  width: 80%;
+  background: #038E7D;
+  height: 50px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+ border: none;
+
+
+}
+
+.support img{
+  padding: 1rem;
+}
+
+/* Credit Forms  Styling*/
+
+
+.credit-forms{
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-info{
+  background-color: rgb(237, 239, 242);
+}
+
+.credit-info #credit{
+  width: 70%;
+}
+
+.credit-info #month-date{
+  width: 10%;
+}
+
+.credit-info #cvv{
+  width: 10%;
+}
+
+/***Freelancer Section**/
+.freelancer{
+  color: white;
+  background: #1179BF;
+  width: 30%;
+  padding: 2rem;
+}
+
+.checkout-whole-section{
+  width: 70%;
+}
+
+.enlarge{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+sup{
+  font-size: 20px;
+}
+
+.renews{
+  font-weight: 100;
+  font-size: 18px;
+  font-style: italic;
+  width: 70%;
+}
+
+.check-mark-section img{ 
+  padding: 5px;
+}
+
+.agency-plan p:nth-child(2){
+  text-decoration: underline;
+}
+
+.line{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 2px;
+  width: 100%;
+  opacity: 0.2;
+  margin-top: 40px;
+}
+
+
+
+.testimonials-italics{
+  width: 80%;
+  font-style: italic;
+}
+
+.testimonial-img p{
+  font-style: bold;
+}
+
+.testimonial-img img{
+ padding: 5px;
+}
+
+footer{
+  text-align: center;
+  font-size: 12px;
+}
+
+footer span{
+  color: #1179BF;
+}

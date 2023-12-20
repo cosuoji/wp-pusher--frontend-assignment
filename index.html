@@ -18,13 +18,113 @@
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+  <nav>
+     <div> <img src="./img/icon.png"></div>
+     <div>
+      <ul>
+        <li><a href="">Download</a></li>
+        <li><a href="">Learn More</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="" class="nav-account">Account</a></li>
+      </ul>
+     </div>
+  </nav>
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <main>
+    <section class="checkout-whole-section">
+      <div class="checkout">
+        <h3 class="checkout-h3">Checkout</h3>
+      </div>
+      <div class="basic-information">
+        <p><span>1</span>Your Basic Information</p>
+        <div>
+          <form>
+            <div class="name-wrapper">
+              <div class="first-name-section">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" placeholder="Jane" name="email" required>  
+              </div>
+  
+              <div class="last-name-section">
+                  <label for="lname">Last Name</label>
+                  <input type="text" placeholder="Doe" name="lname" required>
+              </div>
+             </div>
+             <div class="email-section">
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="janedoe@example.com">
+             </div>
+          </form>
+        </div>
+      </div>
+      <div class="payment-information">
+        <div><p><span>2</span>Your Payment Information</p></div>
+          <div class="credit-forms">
+            <div>
+            <label for="credit">Credit Card</label>
+          </div>
+            <div class="credit-info">         
+            <input type="text" id="credit" placeholder="Card Number" name="credit" required>
+            <input type="text" id="month-date" placeholder="MM/YY">
+            <input type="text" id="cvv" placeholder="CVC">
+          </div>
+          </div>
+        </div>
+      <div class="checkout-footer-section">
+          <button>Buy WP Pusher</button>
+          <p class="support"><img src="img/question.png"><b>Need any help?</b>Don't hesitate to contact support!</p>
+          <img src="img/powered_by_stripe.png">
+      </div>
+    </section>
+
+    <section class="freelancer">
+        <div class="price-section">
+          <h3>Freelancer</h3>
+          <p><sup>$</sup><span class="enlarge">99</span>/ year</p>
+          <p class="renews">Automatically renews after 1 year</p>
+        </div>
+        
+        <div class="check-mark-section">
+          <p><img src="img/Combined Shape.png"> Use on <b>5</b> clients</p>
+          <p><img src="img/Combined Shape.png"> Private repositories</p>
+          <p><img src="img/Combined Shape.png"> Email support</p>
+        </div>
+
+        <div class="agency-plan">
+          <p>Need <b>20</b> client sites</p>
+          <p><b>Switch to the Agency plan</b></p>
+        </div>
+
+        <div class="line">
+          <p></p>
+        </div>
+
+        <div class="testimonials">
+          <p class="testimonials-italics">FTP is horrible to deal with.<b>WP Pusher</b> solves that issue, and the customer support is awesome</p>
+          <div class="testimonial-img">
+            <p><img src="img/Bitmap.png"><b>Kirk Beard</b></p>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy 2018 WP Pusher IVS. - <span>Terms Of Service</span></p>
+  </footer>
+
   <script src="js/app.js"></script>
 
 </body>
